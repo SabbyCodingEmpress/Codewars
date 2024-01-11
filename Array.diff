@@ -1,0 +1,12 @@
+//
+ function arrayDiff(a, b) {
+  let unique = [];
+  
+  for(let i = 0; i < a.length; i++){
+    if(b.indexOf(a[i]) === -1){
+      unique.push(a[i]);
+    }
+  }
+  
+  return unique
+}
